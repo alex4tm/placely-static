@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Turquoise City View Recommendations</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+	<!-- Main Image -->
+	<div class="container mx-auto px-4 md:px-36 py-8 md:py-16">
+		<img src="assets/images/main.jpg" alt="Turquoise City View" class="rounded-xl shadow-md w-full xs:h-32 sm:h-48 md:h-96 object-cover">
+		<h1 class="text-3xl font-bold mt-6">Turquoise City View</h1>
+		<p class="text-gray-600 mt-2 ">
+			This is a curated list of helpful recommendations covering various topics to enhance your experience during your
+			stay.
+			These practical tips aim to help you make the most of your time at the property and nearby.
+		</p>
+	</div>
+
+	<!-- Recommendations Container -->
+	<div class="container mx-auto px-4 sm:px-32 xl:px-96 pb-8">
+		<div id="recommendations" class="grid grid-cols-1 gap-8 md:gap-12">
+			<!-- Dynamic content loaded here -->
+		</div>
+	</div>
+
+	<!-- Template for Recommendation Card -->
+	<template id="recommendation-template">
+		<div class="bg-white shadow rounded-xl overflow-hidden">
+			<img src="" alt="" class="h-48 w-full object-cover recommendation-img">
+			<div class="p-4">
+				<h3 class="text-xl font-semibold recommendation-name"></h3>
+				<p class="text-sm text-gray-600 recommendation-description"></p>
+				<div class="mt-3 flex items-center">
+					<img src="" alt="" class="w-6 h-6 recommendation-icon">
+					<span class="ml-2 text-sm recommendation-time"></span>
+				</div>
+				<a href="#" target="_blank" class="mt-2 inline-block text-blue-500 recommendation-link">View on Google Maps
+					→</a>
+			</div>
+		</div>
+	</template>
+
+	<script>
+		fetch('data/recommendations.json')
+			.then(response => response.json())
+			.then(data => {
+				const container = document.getElementById('recommendations');
+				const template = document.getElementById('recommendation-template');
+
+				data.forEach(rec => {
+					const clone = template.content.cloneNode(true);
+					clone.querySelector('.recommendation-name').textContent = rec.name;
+					clone.querySelector('.recommendation-description').textContent = rec.description;
+					clone.querySelector('.recommendation-img').src = `assets/images/recommendations/${rec.name.toLowerCase().replace(/\s+/g, '_')}.webp`;
+					clone.querySelector('.recommendation-img').alt = rec.name;
+					clone.querySelector('.recommendation-icon').src = `assets/icons/icon-${rec.category}.svg`;
+					clone.querySelector('.recommendation-time').textContent = `${rec.time_to_destination_in_minutes} min ${rec.directions_to_destination}`;
+					clone.querySelector('.recommendation-link').href = rec.google_place_url;
+
+					container.appendChild(clone);
+				});
+			})
+			.catch(error => console.error('Error loading recommendations:', error));
+	</script>
+
+</body>
+
+</html>
