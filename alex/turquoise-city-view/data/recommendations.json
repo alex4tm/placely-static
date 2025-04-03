@@ -1,57 +1,39 @@
 [
   {
-    "id": 652,
-    "name": "Sedako IJKL",
-    "description": "1 Undergound parking space is available - number 14. Retrieve the key from the lockbox located outside the apartment door.",
-    "category": "parking",
-    "google_place_url": "https://maps.google.com/?cid=11469788823743229842",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 0
-  },
-  {
-    "id": 650,
-    "name": "Help Net",
-    "description": "Pharmacy located 10 minutes away by walking.",
-    "category": "health_and_wellness",
-    "google_place_url": "https://maps.google.com/?cid=8853588026572993491",
-    "directions_to_destination": "walking",
+    "id": 647,
+    "name": "L'Osterietta",
+    "description": "Authentic Italian restaurant known for its delicious pizza and a wide variety of classic Italian dishes. Great ambiance and attentive service.",
+    "category": "restaurants",
+    "google_place_url": "https://maps.google.com/?cid=5694376832100981660",
+    "directions_to_destination": "driving",
     "time_to_destination_in_minutes": 10
   },
   {
-    "id": 663,
-    "name": "World Class Timișoara Vox",
-    "description": "Well equipped gym, a few minutes away from the apartment with higher end machines and equipment.",
-    "category": "health_and_wellness",
-    "google_place_url": "https://maps.google.com/?cid=17298422475301884757",
-    "directions_to_destination": "walking",
+    "id": 666,
+    "name": "Locanda Del Corso",
+    "description": "Elegant restaurant offering a cozy atmosphere, excellent service, and a menu with delightful European and Mediterranean options \u2014 perfect during a city center walk.",
+    "category": "restaurants",
+    "google_place_url": "https://maps.google.com/?cid=481573932551750541",
+    "directions_to_destination": "driving",
     "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 655,
-    "name": "USAMVB Timisoara",
-    "description": "Bus station, within walking distance from the apartment for buses 17 and 18.",
-    "category": "transportation",
-    "google_place_url": "https://maps.google.com/?cid=9079577791834894419",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 664,
-    "name": "OTP Bank",
-    "description": "Money exchange and ATM available with multiple banks in the Auchan building.",
-    "category": "atm_money_exchange",
-    "google_place_url": "https://maps.google.com/?cid=18280132737905352767",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 5
   },
   {
     "id": 654,
     "name": "Statia de Cafea Vox",
-    "description": "Nice Cafe with delicious Coffee and snacks.",
+    "description": "Charming cafe with quality coffee and light snacks, located in the Vox building nearby, a great spot for a quick break.",
     "category": "bars_cafes",
     "google_place_url": "https://maps.google.com/?cid=17655171625160003998",
     "directions_to_destination": "driving",
     "time_to_destination_in_minutes": 5
+  },
+  {
+    "id": 857,
+    "name": "Soul Caffe",
+    "description": "Delicious coffee and pleasant ambiance located at the ground floor of the apartment building.",
+    "category": "bars_cafes",
+    "google_place_url": "https://maps.google.com/?cid=16126836758919721801",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 1
   },
   {
     "id": 656,
@@ -74,7 +56,7 @@
   {
     "id": 659,
     "name": "Roses Park",
-    "description": "A serene retreat in the city, Roses Park is renowned for its beautifully landscaped gardens filled with numerous varieties of roses. The park is especially vibrant during the Rose Festival in June, featuring live music, dance performances, and art installations. It's a lovely spot for relaxation, offering picturesque views and tranquil paths ideal for a peaceful walk.",
+    "description": "Lush and peaceful park famous for its vibrant rose gardens and seasonal festivals. A perfect location for nature lovers and casual strolls.",
     "category": "attractions",
     "google_place_url": "https://maps.google.com/?cid=15571084854918731899",
     "directions_to_destination": "driving",
@@ -108,9 +90,90 @@
     "time_to_destination_in_minutes": 10
   },
   {
+    "id": 657,
+    "name": "Three Hierarchs Metropolitan Cathedral",
+    "description": "This stunning architectural masterpiece dominates the city's skyline with its eleven towers. Built between 1936 and 1946, it features a mix of Moldavian, Byzantine, and Serbian styles. Inside, visitors are treated to beautiful frescoes and a large collection of religious artifacts. The cathedral is especially magnificent during religious ceremonies, radiating a profound spiritual ambiance.",
+    "category": "attractions",
+    "google_place_url": "https://maps.google.com/?cid=12022201387949021424",
+    "directions_to_destination": "driving",
+    "time_to_destination_in_minutes": 15
+  },
+  {
+    "id": 653,
+    "name": "Iulius Town",
+    "description": "The largest shopping and entertainment complex in Timi\u0219oara, offering numerous dining options, retail shops, a walking trail, and a large supermarket.",
+    "category": "attractions",
+    "google_place_url": "https://maps.google.com/?cid=15768457799386085494",
+    "directions_to_destination": "driving",
+    "time_to_destination_in_minutes": 10
+  },
+  {
+    "id": 649,
+    "name": "Auchan",
+    "description": "Supermarket located just 5-10 minutes by walking from the apartment with a great variety of groceries,vegetables, drinks and many more.",
+    "category": "groceries",
+    "google_place_url": "https://maps.google.com/?cid=16470943390294180232",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 10
+  },
+  {
+    "id": 648,
+    "name": "Profi",
+    "description": "Convenient mini-market nearby with essential groceries and drinks, ideal for quick shopping during your stay.",
+    "category": "groceries",
+    "google_place_url": "https://maps.google.com/?cid=13026292098725686405",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 3
+  },
+  {
+    "id": 652,
+    "name": "Sedako IJKL",
+    "description": "Underground parking space #14 available for your use. The barrier key can be retrieved from the lockbox next to the apartment door.",
+    "category": "parking",
+    "google_place_url": "https://maps.google.com/?cid=11469788823743229842",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 1
+  },
+  {
+    "id": 650,
+    "name": "Help Net",
+    "description": "Nearby pharmacy located on the ground floor of the Auchan shopping center. Useful for any medical or health-related needs.",
+    "category": "health_and_wellness",
+    "google_place_url": "https://maps.google.com/?cid=8853588026572993491",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 10
+  },
+  {
+    "id": 663,
+    "name": "World Class Timi\u0219oara Vox",
+    "description": "Well equipped gym, a few minutes away from the apartment with higher end machines and equipment.",
+    "category": "health_and_wellness",
+    "google_place_url": "https://maps.google.com/?cid=17298422475301884757",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 10
+  },
+  {
+    "id": 655,
+    "name": "USAMVB Timisoara",
+    "description": "Bus station, within walking distance from the apartment for buses 17 and 18.",
+    "category": "transportation",
+    "google_place_url": "https://maps.app.goo.gl/GjphPi1wHi1St7tT6",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 8
+  },
+  {
+    "id": 664,
+    "name": "OTP Bank",
+    "description": "Money exchange and ATM available with multiple banks in the Auchan building.",
+    "category": "atm_money_exchange",
+    "google_place_url": "https://maps.google.com/?cid=18280132737905352767",
+    "directions_to_destination": "walking",
+    "time_to_destination_in_minutes": 5
+  },
+  {
     "id": 662,
     "name": "NextFit",
-    "description": "Modern gym with pool with a wide variety of machines available.",
+    "description": "Spacious modern fitness center with a swimming pool and a large variety of workout equipment.",
     "category": "health_and_wellness",
     "google_place_url": "https://maps.google.com/?cid=13662503656330051520",
     "directions_to_destination": "walking",
@@ -124,68 +187,5 @@
     "google_place_url": "https://maps.google.com/?cid=8193830195925169765",
     "directions_to_destination": "walking",
     "time_to_destination_in_minutes": 12
-  },
-  {
-    "id": 649,
-    "name": "Auchan",
-    "description": "Supermarket located just 5-10 minutes by walking from the apartment with a great variety of groceries,vegetables, drinks and many more.",
-    "category": "groceries",
-    "google_place_url": "https://maps.google.com/?cid=16470943390294180232",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 647,
-    "name": "L'Osterietta",
-    "description": "Very good italian restaurant, with tasty pizza and good selection of many classic italian foods.",
-    "category": "restaurants",
-    "google_place_url": "https://maps.google.com/?cid=5694376832100981660",
-    "directions_to_destination": "driving",
-    "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 657,
-    "name": "\"Three Hierarchs\" Metropolitan Cathedral",
-    "description": "This stunning architectural masterpiece dominates the city's skyline with its eleven towers. Built between 1936 and 1946, it features a mix of Moldavian, Byzantine, and Serbian styles. Inside, visitors are treated to beautiful frescoes and a large collection of religious artifacts. The cathedral is especially magnificent during religious ceremonies, radiating a profound spiritual ambiance.",
-    "category": "attractions",
-    "google_place_url": "https://maps.google.com/?cid=12022201387949021424",
-    "directions_to_destination": "driving",
-    "time_to_destination_in_minutes": 15
-  },
-  {
-    "id": 653,
-    "name": "Iulius Town",
-    "description": "Largest shopping mall in Timisoara, with plenty of cafe's, dining options, walking trail, shopping, supermarket etc.",
-    "category": "attractions",
-    "google_place_url": "https://maps.google.com/?cid=15768457799386085494",
-    "directions_to_destination": "driving",
-    "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 648,
-    "name": "Profi",
-    "description": "Mini-market with a small selection of groceries and drinks that will come in handy during your stay, just few minutes walking.",
-    "category": "groceries",
-    "google_place_url": "https://maps.google.com/?cid=13026292098725686405",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 3
-  },
-  {
-    "id": 666,
-    "name": "Locanda Del Corso",
-    "description": "Great little restaurant with tasty food, good service and a great cost/value ratio. Very nice for a break while visiting old city center.",
-    "category": "restaurants",
-    "google_place_url": "https://maps.google.com/?cid=481573932551750541",
-    "directions_to_destination": "driving",
-    "time_to_destination_in_minutes": 10
-  },
-  {
-    "id": 857,
-    "name": "Soul Caffe",
-    "description": "Delicious coffee and pleasant ambiance located at the ground floor of the apartment building.",
-    "category": "bars_cafes",
-    "google_place_url": "https://maps.google.com/?cid=16126836758919721801",
-    "directions_to_destination": "walking",
-    "time_to_destination_in_minutes": 1
   }
 ]
